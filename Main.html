@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Page</title>
+    <style>
+        
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; 
+        }
+
+        
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        
+        .button-container {
+            display: flex;
+            justify-content: center; 
+            gap: 20px; 
+        }
+
+        
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        
+        .profile1-btn {
+            background-color: #4CAF50;
+        }
+
+        .profile2-btn {
+            background-color: #2196F3;
+        }
+
+        
+        button:hover {
+            transform: translateY(-5px); 
+            opacity: 0.9;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>My profile and my friend's profile</h1>
+    
+        
+        <div class="button-container">
+            
+            <button class="profile1-btn" onclick="gotoProflie1()">Profile 1</button>
+
+            <button class="profile2-btn" onclick="gotoProflie2()">Profile 2</button>
+        </div>
+    </div>
+    
+    <script>
+        function gotoProflie1() {
+            
+            window.location.href = 'https://raw.githack.com/Tobee19115/Profile/refs/heads/main/jl/Proflie.html';
+        }
+
+        function gotoProflie2() {
+            
+            window.location.href = 'https://raw.githack.com/Grjisjs/-/refs/heads/main/zz/hhh.html';
+        }
+    </script>
+</body>
+</html>
